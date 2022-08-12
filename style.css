@@ -71,16 +71,18 @@ a:hover {
    margin-top: 20px;
    display: none;
   }
+  .LoginForm{
+    width: 60%;
+  }
 }
 
-/* .LoginForm{
-  width: 25rem;
-} */
+.LoginForm{
+  width: 75%;
+}
 
 @media screen and (max-width: 995px) and (min-width:600px) {
   #design{
    margin-top: 20px;
    display: none;
   }
-  
 }
