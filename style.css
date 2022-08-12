@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+body{
+	font-family: 'Poppins';
+  font-size: 16px;
+  color: #383833;;
+}
+
+input[type="email"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(173, 173, 173);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+
+input[type="password"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(173, 173, 173);;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+
+#LoginButton{
+  border: none;
+  margin-top: 1rem;
+  width: 10rem;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: linear-gradient(to top, #1A0B56 , #8877BD);
+}
+
+a {
+  color: #1A0B56;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+
+a.active,
+a:active,
+a:focus,
+a:hover {
+  color: #1A0B56;
+  outline: none;
+  text-decoration: none;
+  color: #1A0B56;
+}
+
+
+/* #design{
+  background-image: linear-gradient(to top, #1A0B56 , #8877BD);
+} */
+
+/* .LoginForm{
+  background-image: url(assets/images/background.jpg);
+} */
