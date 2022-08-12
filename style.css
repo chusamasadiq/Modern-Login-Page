@@ -74,7 +74,7 @@ a:hover {
 }
 
 .LoginForm{
-  width: 30rem;
+  width: 25rem;
 }
 
 @media screen and (max-width: 995px) and (min-width:600px) {
