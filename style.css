@@ -71,13 +71,20 @@ a:hover {
    margin-top: 20px;
    display: none;
   }
-  
+  .LoginFormBackground{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  } 
 }
 
-.LoginForm{
-  padding-left: 5rem;
-  padding-right: 5rem;
-} 
+
+@media screen and (min-width: 600px) {
+  .LoginFormBackground{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  } 
+  
+}
 
 @media screen and (max-width: 995px) and (min-width:600px) {
   #design{
