@@ -14,6 +14,7 @@ select.form-control {
   -webkit-box-shadow: none;
   box-shadow: none;
   border-radius: 0;
+  padding-left: 10px;;
 }
 
 
@@ -70,18 +71,16 @@ a:hover {
    margin-top: 20px;
    display: none;
   }
-  label.form-check-label.pt-5 {
-    font-size: 12px;
-}
 }
 
+.LoginForm{
+width: 30rem;
+}
 
-@media screen and (max-width: 992px) and (min-width:600px) {
+@media screen and (max-width: 995px) and (min-width:600px) {
   #design{
    margin-top: 20px;
    display: none;
   }
-
+  
 }
-
-
