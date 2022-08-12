@@ -68,5 +68,8 @@ a:hover {
   #design{
    margin-top: 20px;
   }
+  #LoginForm{
+    width: 20rem;
+  }
 
 }
