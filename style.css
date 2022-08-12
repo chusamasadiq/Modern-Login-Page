@@ -3,7 +3,7 @@
 body{
 	font-family: 'Poppins';
   font-size: 16px;
-  color: #383833;;
+  color: rgb(173, 173, 173);;;
 }
 
 input[type="email"],
@@ -57,11 +57,9 @@ a:hover {
   color: #1A0B56;
 }
 
-
-/* #design{
-  background-image: linear-gradient(to top, #1A0B56 , #8877BD);
-} */
-
-/* .LoginForm{
-  background-image: url(assets/images/background.jpg);
-} */
+.LoginForm{
+  background-image: url(assets/images/background-new.png);
+  height: auto;
+  width: auto;
+  background-repeat: no-repeat;
+}
