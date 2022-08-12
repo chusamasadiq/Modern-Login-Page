@@ -64,20 +64,9 @@ a:hover {
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 767px) {
-  .LoginForm{
-    width: 20rem;
+@media screen and (max-width: 600px) {
+  #design{
+   margin-top: 20px;
   }
-}
 
-@media screen and (max-width: 480px) {
-  #button {
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  #footerbutton {
-    width: 80%;
-  }
 }
