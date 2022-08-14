@@ -17,7 +17,6 @@ select.form-control {
   padding-left: 10px;;
 }
 
-
 input[type="password"],
 select.form-control {
   background: transparent;
@@ -27,7 +26,6 @@ select.form-control {
   box-shadow: none;
   border-radius: 0;
 }
-
 
 #LoginButton{
   border: none;
@@ -51,7 +49,6 @@ a {
   transition: 0.3s;
 }
 
-
 a:active,
 a:focus,
 a:hover {
@@ -65,15 +62,13 @@ a:hover {
   background-image: url(assets/images/background-new.png);
   height: auto;
   width: auto;
-  background-repeat: no-repeat;
-  
+  background-repeat: no-repeat; 
 }
 
 .error{
   color: red;
   width: 100%;
   margin-top: 5px;
-  /* padding-left: 100px; */
 }
 
 @media screen and (max-width: 600px) {
@@ -87,13 +82,11 @@ a:hover {
   } 
 }
 
-
 @media screen and (min-width: 600px) {
   .LoginFormBackground{
     padding-left: 8rem;
     padding-right: 8rem;
-  } 
-  
+  }   
 }
 
 @media screen and (max-width: 995px) and (min-width:600px) {
