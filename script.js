@@ -1,4 +1,3 @@
-
 jQuery('#form').validate({
 	rules:{
 		email:{
