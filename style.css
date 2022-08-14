@@ -39,6 +39,10 @@ select.form-control {
   background-image: linear-gradient(to top, #1A0B56 , #8877BD);
 }
 
+#LoginButton:hover{
+color: #000;
+}
+
 a {
   color: #1A0B56;
   text-decoration: none;
@@ -48,14 +52,13 @@ a {
 }
 
 
-a.active,
 a:active,
 a:focus,
 a:hover {
   color: #1A0B56;
   outline: none;
   text-decoration: none;
-  color: #1A0B56;
+  color: #8877BD
 }
 
 .LoginFormBackground{
@@ -64,6 +67,13 @@ a:hover {
   width: auto;
   background-repeat: no-repeat;
   
+}
+
+.error{
+  color: red;
+  width: 100%;
+  margin-top: 5px;
+  /* padding-left: 100px; */
 }
 
 @media screen and (max-width: 600px) {
